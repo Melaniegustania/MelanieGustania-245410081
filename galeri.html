@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Galeri Bunga | Pesona Bunga Nusantara</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+  <h1>Galeri Bunga Nusantara</h1>
+  <nav>
+    <ul>
+      <li><a href="index1.html">Beranda</a></li>
+      <li><a href="kontak.html">Contact Me</a></li>
+      <li><a href="galeri.html">Galeri Bunga</a></li>
+    </ul>
+  </nav>
+</header>
+  <main>
+
+    <div class="container">
+      <!-- Panel KIRI -->
+      <div class="description-panel" id="descriptionPanel">
+        <h3>Deskripsi Bunga</h3>
+        <p id="descriptionText">Klik salah satu bunga untuk melihat keterangannya.</p>
+      </div>
+
+      <!-- Panel KANAN -->
+      <div class="galeri-container">
+        <div class="card" onclick="showDescription('Bunga Alamanda dikenal dengan warna kuning cerahnya dan tumbuh subur di iklim tropis.')">
+          <img src="Bunga Alamanda.png" alt="Alamanda">
+          <p>Bunga Alamanda</p>
+        </div>
+
+        <div class="card" onclick="showDescription('Bunga Anggrek adalah simbol keindahan dan keanggunan, sering digunakan sebagai hiasan.')">
+          <img src="Bunga Anggrek.png" alt="Anggrek">
+          <p>Bunga Anggrek</p>
+        </div>
+
+        <div class="card" onclick="showDescription('Bunga Mawar melambangkan cinta dan romantisme, sangat populer di seluruh dunia.')">
+          <img src="Bunga mawar.png" alt="Mawar">
+          <p>Bunga Mawar</p>
+        </div>
+
+        <div class="card" onclick="showDescription('Bunga Sepatu (Hibiscus rosa-sinensis) dikenal dengan kelopak besar berwarna cerah, terutama merah. Bunga ini sering dijumpai di daerah tropis.')">
+          <img src="Bunga Sepatu.png" alt="Sepatu">
+          <p>Bunga Sepatu</p>
+        </div>
+		<div class="card" onclick="showDescription('Bunga Melati (Jasminum sambac) adalah bunga kecil berwarna putih dengan aroma harum khas. Melambangkan kemurnian dan kesucian, bunga ini juga dijadikan simbol nasional Indonesia')">
+		  <img src="Bunga Melati.png" alt="Melati">
+		  <p>Bunga Melati</p>
+		</div>
+		<div class="card" onclick="showDescription('unga Kenanga (Cananga odorata) memiliki aroma harum yang kuat dan khas. Bunga ini sering digunakan dalam tradisi adat dan bahan dasar parfum')">
+		  <img src="Bunga Kenanga.png" alt="Kenanga">
+		  <p>Bunga Kenanga</p>
+		</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>©2025 Pesona Bunga Nusantara</p>
+  </footer>
+
+  <script>
+    function showDescription(text) {
+      document.getElementById("descriptionText").innerText = text;
+    }
+  </script>
+
+</body>
+</html>
+
+

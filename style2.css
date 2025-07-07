@@ -1,0 +1,149 @@
+nav {
+  background-color: #e6a9b0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #c94f7c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff8f4;
+  color: #333;
+}
+
+header {
+  background-color: #c94f7c;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+nav {
+  background-color: #e6a9b0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #c94f7c;
+}
+
+main.kontak {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  min-height: 80vh;
+  background-color: #fff4ed;
+}
+
+.kontak-container {
+  background-color: #fff0f5;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.kontak-container h2 {
+  font-size: 26px;
+  color: #c94f7c;
+  margin-bottom: 10px;
+}
+
+.kontak-container p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+/* Form Styling */
+.kontak-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.kontak-container label {
+  text-align: left;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #444;
+}
+
+.kontak-container input[type="text"],
+.kontak-container input[type="email"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.kontak-container input[type="submit"] {
+  background-color: #c94f7c;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.kontak-container input[type="submit"]:hover {
+  background-color: #a63b62;
+}
+
+/* Footer */
+footer {
+  background-color: #c94f7c;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
